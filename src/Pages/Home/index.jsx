@@ -9,11 +9,13 @@ function App() {
 
   return (
     <Container>
-    <main>
+    
       <header>
+        <h1>Waether</h1>
         <button> <RiMapPinLine/> Fortaleza <VscChevronDown/></button>
         <button><VscBellDot/></button>
       </header>
+      <main>
      <div className="rain">
     <img  src={Rain} /></div>
     </main>
