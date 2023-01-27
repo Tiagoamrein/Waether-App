@@ -13,10 +13,10 @@ export const Container= styled.div`
 display: flex;
 width: 100%;
 align-items: center;
-background-color: #0B42AB;
 justify-content: space-between;
 padding: 10px 40px;
-border-radius: 20px;
+
+
 
 
 
@@ -26,16 +26,14 @@ button{
   border: none;
   color: white;
   cursor: pointer;
+  font-size: 20px;
   
 
-  :hover{
-    background: #08244F;
-    border-radius: 10px;
-  }
+ 
 }
 
 button:nth-child(2){
-  margin-right: 10.5rem;
+  margin-right: 5rem;
 }
 .rain{
 
@@ -48,8 +46,14 @@ height: 100px;
   
 width: 100%;
 display: flex;
+flex-direction: column;
+align-items:center;
 justify-content: center;
 
+& h2{
+  font-size: 84px;
+  
+}
     
   
   }

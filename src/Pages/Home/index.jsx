@@ -18,6 +18,9 @@ function App() {
       <main>
      <div className="rain">
     <img  src={Rain} /></div>
+    <h2>58º</h2>
+    <p>Precipitations
+Max.: 31º   Min.: 25º</p>
     </main>
     
     </Container>

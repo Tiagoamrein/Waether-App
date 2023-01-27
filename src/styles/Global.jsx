@@ -10,7 +10,7 @@ export default createGlobalStyle`
   body{
     width: 223px;
     height: 558px;
-    
+    color: white;
     border-radius: 40px;
     
   }
