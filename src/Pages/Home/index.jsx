@@ -15,13 +15,21 @@ function App() {
         <button> <RiMapPinLine/> Fortaleza <VscChevronDown/></button>
         <button><VscBellDot/></button>
       </header>
+      
       <main>
-     <div className="rain">
-    <img  src={Rain} /></div>
+        <h1>Terça-feira</h1>
+    <div className="temp">
+      <img  src={Rain} />
     <h2>58º</h2>
-    <p>Precipitations
-Max.: 31º   Min.: 25º</p>
+    </div>
+    
+    
     </main>
+    <div className="card">
+    <h3>Dias da semana</h3>
+
+    </div>
+
     
     </Container>
   )

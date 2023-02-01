@@ -8,6 +8,8 @@ export const Container= styled.div`
     background: linear-gradient(167.44deg, #08244F 0%, #134CB5 47.38%, #0B42AB 100%);
     border-radius: 20px;
     margin: 24px 21px;
+
+  
 >header{
 
 display: flex;
@@ -33,13 +35,9 @@ button{
 }
 
 button:nth-child(2){
-  margin-right: 5rem;
+  margin-right: 5.2rem;
 }
-.rain{
 
-width: 100px;
-height: 100px;
-}
 }
 
  > main{
@@ -49,11 +47,22 @@ display: flex;
 flex-direction: column;
 align-items:center;
 justify-content: center;
+margin-top: 50px;
 
-& h2{
-  font-size: 84px;
-  
+
+.temp{
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  >img{
+    width: 300px;
+    height: 300px;
+  }
+  h2{
+    font-size: 50px;
+  }
 }
+
     
   
   }
