@@ -1,11 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import Home from './Pages/Home'
-import Global from './styles/Global'
+import './libs/dayjs';
+import './styles/global.css';
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+import { Routes } from './routes';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Global/>
-    <Home/>
+    <Routes />
   </React.StrictMode>,
 )
